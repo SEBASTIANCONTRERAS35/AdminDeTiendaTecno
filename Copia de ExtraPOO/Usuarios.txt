@@ -1,0 +1,3 @@
+{Estudiante, nombre=Sebastian, direccion=Av de las torres, ID=1, telefono=55344324, edad=5, contrasena=Dogy4298}
+{Socio, nombre=EMILIO, direccion=Londres, ID=8, telefono=23124312, edad=5, contrasena=Mexico}
+{ClienteVip, nombre=BICHOTEE, direccion=Dubai, ID=9, telefono=214132434, edad=86, contrasena=Hello}

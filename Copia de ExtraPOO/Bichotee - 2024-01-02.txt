@@ -1,0 +1,4 @@
+ PC: # Identificador del producto= 15, calidad=1, nombre='Family PC', marca='Acer', modelo=2023, precio=699.99, procesador='AMD Ryzen', graficos='Integrated', teclado='Standard', Nnucleos=4, ram=8, consunoDeEnergia=400 - Cantidad: 2
+SmartPhone: Celular: # Identificador del producto= 5, calidad=2, nombre='Flagship Phone', marca='OnePlus', modelo=2023, precio=899.99, procesador='Snapdragon', duracionBateria=20, capacidad=256, NCamaras=4, pulgadas=6.7, debloqueo='Face ID', sensores=4, tarjetasSim=2, modeloIA='Neural Engine', sistemaOperativo='Oxygen OS' - Cantidad: 2
+El total fue de 3199.96
+GRACIAS POR TU COMPRA

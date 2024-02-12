@@ -1,0 +1,4 @@
+Tablet: # Identificador del producto= 2, calidad=2, nombre='Tablet', marca='Apple', modelo=2023, precio=899.99, procesador='A14 Bionic', duracionBateria=18, capacidad=64, NCamaras=2, pulgadas=10.2, lapiz='Apple Pencil', teclado='Touch', programar=true - Cantidad: 3
+SmartPhone: Celular: # Identificador del producto= 10, calidad=3, nombre='Mid-range Phone', marca='Xiaomi', modelo=2023, precio=399.99, procesador='Snapdragon', duracionBateria=12, capacidad=128, NCamaras=3, pulgadas=6.2, debloqueo='Fingerprint', sensores=3, tarjetasSim=2, modeloIA='MIUI', sistemaOperativo='Android' - Cantidad: 3
+El total fue de 3509.9460000000004
+GRACIAS POR TU COMPRA

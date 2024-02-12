@@ -1,0 +1,4 @@
+ PC: # Identificador del producto= 4, calidad=1, nombre='Gaming PC', marca='Alienware', modelo=2023, precio=2499.99, procesador='Intel i9', graficos='Nvidia RTX 3080', teclado='Mechanical', Nnucleos=12, ram=32, consunoDeEnergia=750 - Cantidad: 1
+Tablet: # Identificador del producto= 12, calidad=1, nombre='Kids Tablet', marca='Amazon', modelo=2023, precio=129.99, procesador='Amazon Custom', duracionBateria=12, capacidad=32, NCamaras=1, pulgadas=7.0, lapiz='No', teclado='Touch', programar=false - Cantidad: 1
+El total fue de 2629.9799999999996
+GRACIAS POR TU COMPRA

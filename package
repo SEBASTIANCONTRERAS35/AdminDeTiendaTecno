@@ -1,0 +1,262 @@
+classDiagram
+direction BT
+class AccionesProductos {
+<<Interface>>
+  + Comprar() void
+  + eliminarProductoDelCarrito() void
+  + mostrarCarrito() void
+  + añadirAlCarrito() void
+  + mostrarProductos() void
+}
+class Admin {
+  # Admin(String, String, int, int, String) 
+  + crearUsuario(String, String, long, int, String) Admin?
+  + eliminarProductosInventario() void
+  - eliminarUsuario(String, String) void
+  - guardarUsuarios(String) void
+  + creacionAdmin(String, String, long, int, String) void
+  + toString() String
+  - cargarUsuarios(String) void
+  + iniciarSesion() void
+  + mostrarInventario() void
+  + anadirProductosInventario() void
+}
+class Administrar {
+<<Interface>>
+  + anadirProductosInventario() void
+  + mostrarInventario() void
+  + eliminarProductosInventario() void
+}
+class Celular {
+  + Celular(int, int, String, String, int, double, String, int, int, int, double, String, int, int) 
+  + toString() String
+}
+class ClienteVip {
+  + ClienteVip(String, String, int, int, String) 
+  + toString() String
+  + crearUsuario(String, String, long, int, String) ClienteVip?
+}
+class Comprador {
+  # Comprador(String, String, long, int, String) 
+  - DescuentoStrategy descuentoStrategy
+  # double totalAPagar
+  + iniciarSesion() Comprador?
+  # cargarUsuarios(String) void
+  + toString() String
+  # guardarUsuarios(String) void
+  - comprobarCalidad(DispositivoElectronico) boolean
+  + Comprar() void
+  + añadirAlCarrito() void
+  + eliminarProductoDelCarrito() void
+  + crearUsuario() void
+  # eliminarUsuario(String, String) void
+  + inicioSesion() void
+  # ticket(String, double) void
+  - cambiarContraseña() void
+  + mostrarCarrito() void
+  + mostrarProductos() void
+  # limpiarConsola() void
+   DescuentoStrategy descuentoStrategy
+   double totalAPagar
+}
+class Computadora {
+  # Computadora(int, int, String, String, int, double, String, String, String, int, int) 
+  + toString() String
+}
+class ContraseñaEquivocadaException {
+  + ContraseñaEquivocadaException(String) 
+}
+class DescuentoEstudiante {
+  + DescuentoEstudiante() 
+  + aplicarDescuento(double, Map~DispositivoElectronico, Integer~) double
+}
+class DescuentoSocio {
+  + DescuentoSocio() 
+  + aplicarDescuento(double, Map~DispositivoElectronico, Integer~) double
+}
+class DescuentoStrategy {
+<<Interface>>
+  + aplicarDescuento(double, Map~DispositivoElectronico, Integer~) double
+}
+class DescuentoVIP {
+  + DescuentoVIP() 
+  + aplicarDescuento(double, Map~DispositivoElectronico, Integer~) double
+}
+class Descuentos {
+  + Descuentos() 
+}
+class DispositivoElectronico {
+  # DispositivoElectronico(int, int, String, String, int, double, String) 
+  - int identificador
+  - String nombre
+  - Map~DispositivoElectronico, Integer~ inventario
+  - double precio
+  - int calidad
+  + toString() String
+   int identificador
+   Map~DispositivoElectronico, Integer~ inventario
+   double precio
+   int calidad
+   String nombre
+}
+class DispositivoMovil {
+  # DispositivoMovil(int, int, String, String, int, double, String, int, int, int, double) 
+  + toString() String
+}
+class Estudiante {
+  + Estudiante(String, String, int, int, String) 
+  + toString() String
+  + crearUsuario(String, String, long, int, String) Estudiante?
+}
+class Factory {
+  + Factory() 
+  + crearTelevision(int, int, String, String, int, double, String, String, String, boolean, double) DispositivoElectronico
+  + crearCelular(int, int, String, String, int, double, String, int, int, int, double, String, int, int) DispositivoElectronico
+  + crearSmartPhone(int, int, String, String, int, double, String, int, int, int, double, String, int, int, String, String) DispositivoElectronico
+  + crearPc(int, int, String, String, int, double, String, String, String, int, int, int) DispositivoElectronico
+  + crearTablet(int, int, String, String, int, double, String, int, int, int, double, String, String, boolean) DispositivoElectronico
+  + crearLaptop(int, int, String, String, int, double, String, String, String, int, int, boolean, int, double) DispositivoElectronico
+}
+class Laptop {
+  + Laptop(int, int, String, String, int, double, String, String, String, int, int, boolean, int, double) 
+  + toString() String
+}
+class MismaContrasenaException {
+  + MismaContrasenaException(String) 
+}
+class NumNuevosElementosNoValidoException {
+  + NumNuevosElementosNoValidoException(String) 
+}
+class PC {
+  + PC(int, int, String, String, int, double, String, String, String, int, int, int) 
+  + toString() String
+}
+class ProductoNoEncontradoException {
+  + ProductoNoEncontradoException(String) 
+}
+class SinCashBackException {
+  + SinCashBackException(String) 
+}
+class SinProductosException {
+  + SinProductosException(String) 
+}
+class SmartPhone {
+  + SmartPhone(int, int, String, String, int, double, String, int, int, int, double, String, int, int, String, String) 
+  + toString() String
+}
+class Socio {
+  + Socio(String, String, int, int, String) 
+  + crearUsuario(String, String, long, int, String) Socio?
+  + toString() String
+  + Comprar() void
+}
+class Tablet {
+  + Tablet(int, int, String, String, int, double, String, int, int, int, double, String, String, boolean) 
+  + toString() String
+}
+class Television {
+  + Television(int, int, String, String, int, double, String, String, String, boolean, double) 
+  + toString() String
+}
+class Usuario {
+  + Usuario(String, String, long, int, String) 
+  - int edad
+  - long telefono
+  - String direccion
+  - int contadorID
+  - String contrasena
+  - String name
+  - int id
+  # ExisteUsuario(String, String) Boolean
+  # limpiarLista(Map) void
+  + toString() String
+  # buscarUsuarioPorNombre(String, String) Usuario?
+  # getValue(String) String
+  # formatoProducto(String) String
+   String name
+   int id
+   int contadorID
+   String direccion
+   long telefono
+   String contrasena
+   int edad
+}
+class UsuarioThread {
+  + UsuarioThread() 
+  + run() void
+}
+
+Admin "1" *--> "ADMINISTRADORES *" Admin 
+Admin  ..>  Admin : «create»
+Admin  ..>  Administrar 
+Admin  ..>  ContraseñaEquivocadaException : «create»
+Admin  ..>  DispositivoElectronico 
+Admin  ..>  Factory 
+Admin  ..>  NumNuevosElementosNoValidoException : «create»
+Admin  ..>  ProductoNoEncontradoException : «create»
+Admin  ..>  SinProductosException : «create»
+Admin  -->  Usuario 
+Celular  -->  DispositivoMovil 
+ClienteVip  ..>  ClienteVip : «create»
+ClienteVip  -->  Comprador 
+ClienteVip  ..>  DescuentoVIP : «create»
+ClienteVip  ..>  Descuentos 
+ClienteVip  ..>  Usuario 
+Comprador  ..>  AccionesProductos 
+Comprador  ..>  ClienteVip : «create»
+Comprador "1" *--> "COMPRADORES *" Comprador 
+Comprador  ..>  ContraseñaEquivocadaException : «create»
+Comprador "1" *--> "descuentoStrategy 1" DescuentoStrategy 
+Comprador "1" *--> "Carrito *" DispositivoElectronico 
+Comprador  ..>  Estudiante : «create»
+Comprador  ..>  MismaContrasenaException : «create»
+Comprador  ..>  NumNuevosElementosNoValidoException : «create»
+Comprador  ..>  ProductoNoEncontradoException : «create»
+Comprador  ..>  SinProductosException : «create»
+Comprador  ..>  Socio : «create»
+Comprador  -->  Usuario 
+Comprador  ..>  UsuarioThread : «create»
+Computadora  -->  DispositivoElectronico 
+DescuentoEstudiante  ..>  DescuentoStrategy 
+Descuentos  -->  DescuentoEstudiante 
+DescuentoEstudiante  ..>  DispositivoElectronico 
+DescuentoSocio  ..>  DescuentoStrategy 
+Descuentos  -->  DescuentoSocio 
+DescuentoSocio  ..>  DispositivoElectronico 
+DescuentoStrategy  ..>  DispositivoElectronico 
+DescuentoVIP  ..>  DescuentoStrategy 
+Descuentos  -->  DescuentoVIP 
+DescuentoVIP  ..>  DispositivoElectronico 
+DispositivoElectronico "1" *--> "inventario *" DispositivoElectronico 
+DispositivoMovil  -->  DispositivoElectronico 
+Estudiante  -->  Comprador 
+Estudiante  ..>  DescuentoEstudiante : «create»
+Estudiante  ..>  Descuentos 
+Estudiante  ..>  Estudiante : «create»
+Estudiante  ..>  Usuario 
+Factory  ..>  Celular : «create»
+Factory  ..>  DispositivoElectronico 
+Factory  ..>  Laptop : «create»
+Factory  ..>  PC : «create»
+Factory  ..>  SmartPhone : «create»
+Factory  ..>  Tablet : «create»
+Factory  ..>  Television : «create»
+Laptop  -->  Computadora 
+PC  -->  Computadora 
+SmartPhone  -->  Celular 
+Socio  -->  Comprador 
+Socio  ..>  DescuentoSocio : «create»
+Socio  ..>  DescuentoStrategy 
+Socio  ..>  Descuentos 
+Socio  ..>  SinCashBackException : «create»
+Socio  ..>  SinProductosException : «create»
+Socio  ..>  Socio : «create»
+Socio  ..>  Usuario 
+Tablet  -->  DispositivoMovil 
+Television  -->  DispositivoElectronico 
+Usuario  ..>  Admin : «create»
+Usuario  ..>  ClienteVip : «create»
+Usuario  ..>  Estudiante : «create»
+Usuario  ..>  Socio : «create»
+Usuario  ..>  Usuario 
+Comprador  -->  UsuarioThread 

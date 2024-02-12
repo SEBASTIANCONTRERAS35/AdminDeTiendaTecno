@@ -1,0 +1,2 @@
+{Admin, nombre=Admin, direccion=Facultad de Ingenieria, ID=1, telefono=55334352, edad=5, contrasena=DonRata}
+{Admin, nombre=Jose, direccion=Tulum, ID=2, telefono=241432, edad=5, contrasena=Hola}

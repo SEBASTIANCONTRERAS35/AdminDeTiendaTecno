@@ -1,0 +1,3 @@
+ PC: # Identificador del producto= 4, calidad=1, nombre='Gaming PC', marca='Alienware', modelo=2023, precio=2499.99, procesador='Intel i9', graficos='Nvidia RTX 3080', teclado='Mechanical', Nnucleos=12, ram=32, consunoDeEnergia=750 - Cantidad: 3
+El total fue de 6749.972999999999
+GRACIAS POR TU COMPRA

@@ -1,0 +1,3 @@
+Celular: # Identificador del producto= 11, calidad=2, nombre='Budget Smartphone', marca='Motorola', modelo=2023, precio=199.99, procesador='MediaTek', duracionBateria=20, capacidad=64, NCamaras=2, pulgadas=6.1, debloqueo='Pattern', sensores=2, tarjetasSim=1 - Cantidad: 2
+El total fue de 359.982
+GRACIAS POR TU COMPRA

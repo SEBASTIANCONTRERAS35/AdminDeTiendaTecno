@@ -1,0 +1,2 @@
+{Admin, nombre=Admin, direccion=Fac de Ingenieria, ID=4, telefono=55987634, edad=5, contrasena=DonRata}
+{Admin, nombre=Sebastian, direccion=Miami, ID=6, telefono=1059278028, edad=23, contrasena=Dogy}

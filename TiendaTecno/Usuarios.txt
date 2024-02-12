@@ -1,0 +1,3 @@
+{Socio, nombre=Sebastian, direccion=Dubai, ID=16, telefono=343243, edad=5, contrasena=Dubai}
+{Socio, nombre=Rosalba, direccion=CDMX, ID=17, telefono=4242342, edad=5, contrasena=Cope}
+{ClienteVip, nombre=EMILIO, direccion=Mexico, ID=18, telefono=133432, edad=5, contrasena=BICHOO}
