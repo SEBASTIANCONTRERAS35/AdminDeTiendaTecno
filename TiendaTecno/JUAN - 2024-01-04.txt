@@ -1,4 +1,0 @@
-Television: # Identificador del producto= 13, calidad=1, nombre='HD TV', marca='LG', modelo=2023, precio=499.99, procesador='LG Processor', resolucion='1080p', taza='60Hz', smart=false, pulgadas=42.0 - Cantidad: 2
-Laptop: # Identificador del producto= 6, calidad=1, nombre='High Performance Laptop', marca='Dell', modelo=2023, precio=1599.99, procesador='Intel i7', graficos='Nvidia GTX 3060', teclado='Backlit', Nnucleos=8, ram=16 ventiladores=true, duracionDeBateria=10, pulgadas=15.6 - Cantidad: 3
-El total fue de 3479.9700000000003
-GRACIAS POR TU COMPRA

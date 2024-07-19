@@ -1,4 +1,0 @@
-Celular: # Identificador del producto= 1, calidad=1, nombre='Smartphone', marca='Samsung', modelo=2023, precio=999.99, procesador='Snapdragon', duracionBateria=24, capacidad=128, NCamaras=3, pulgadas=6.5, debloqueo='Huella', sensores=5, tarjetasSim=2 - Cantidad: 3
- PC: # Identificador del producto= 4, calidad=1, nombre='Gaming PC', marca='Alienware', modelo=2023, precio=2499.99, procesador='Intel i9', graficos='Nvidia RTX 3080', teclado='Mechanical', Nnucleos=12, ram=32, consunoDeEnergia=750 - Cantidad: 2
-El total fue de 5700.968
-GRACIAS POR TU COMPRA
